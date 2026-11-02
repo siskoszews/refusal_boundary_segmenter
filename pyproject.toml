@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "siskoszews-agentplat_jd075"
+name = "siskoszews-refusal_boundary_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对Agent 编排平台工程师·拒答边界与过度拒答相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://siskoszews.github.io"
-Repository = "https://github.com/siskoszews/agentplat_jd075"
-Issues = "https://github.com/siskoszews/agentplat_jd075/issues"
+Repository = "https://github.com/siskoszews/refusal_boundary_segmenter"
+Issues = "https://github.com/siskoszews/refusal_boundary_segmenter/issues"
 
 [project.scripts]
-agentplat_jd075 = "agentplat_jd075:main"
+refusal_boundary_segmenter = "refusal_boundary_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["agentplat_jd075"]
+py-modules = ["refusal_boundary_segmenter"]
